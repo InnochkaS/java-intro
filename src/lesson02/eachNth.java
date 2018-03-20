@@ -20,6 +20,6 @@ public class eachNth {
         int n = 2;
         eachNth s1 = new eachNth ("abcd", n);
 
-        System.out.println("Each " + n + " element of the string is :" + d);
+        System.out.println("Each " + n + " element of the string is : " + d);
     }
 }
