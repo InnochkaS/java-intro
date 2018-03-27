@@ -8,7 +8,7 @@ public class Fibonacci {
             return new int[]{0};
 
         if(l == 1)
-            return new int[]{0, 1};
+            return new int[]{0};
 
         int[] result = new int[l];
 
@@ -35,7 +35,7 @@ public class Fibonacci {
 
     public static void main (String[] args) {
 
-        int k = 7;
+        int k = 2;
         int[] result = new Fibonacci().calculateFibonacciNumbers(k);
         System.out.println("Result is: ");
 
